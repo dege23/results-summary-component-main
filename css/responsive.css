@@ -1,0 +1,43 @@
+@media (min-width: 700px) {
+  :root {
+    --text-size-p: 1rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-areas: "card1 card2";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 620px;
+    min-height: initial;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: 15px 15px 40px 0px var(--pale-blue);
+  }
+
+  .card1 {
+    border-radius: 30px;
+  }
+
+  .card1 h2, .card2 h2{
+    font-size: 1.4rem;
+  }
+
+  .card1 .evaluation-circle {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .card1 .evaluation-circle h3 {
+    font-size: 4.5rem;
+  }
+
+  .card1 .evaluation-circle span {
+    font-size: 1.4rem;
+  }
+
+  .attribution {
+    display: flex;
+  }
+  
+}
