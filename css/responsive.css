@@ -13,6 +13,7 @@
     border-radius: 30px;
     margin: auto;
     box-shadow: 15px 15px 40px 0px var(--pale-blue);
+    aspect-ratio: 3/2;
   }
 
   .card1 {
