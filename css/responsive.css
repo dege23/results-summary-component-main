@@ -1,9 +1,9 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   :root {
     --text-size-p: 1rem;
   }
 
-  .container-page{
+  .container-page {
     padding: 24px 0 0;
   }
 
@@ -23,7 +23,8 @@
     border-radius: 30px;
   }
 
-  .card1 h2, .card2 h2{
+  .card1 h2,
+  .card2 h2 {
     font-size: 1.4rem;
   }
 
@@ -31,7 +32,7 @@
     width: 180px;
     height: 180px;
   }
-  
+
   .card1 .evaluation-circle h3 {
     font-size: 4.5rem;
   }
@@ -43,5 +44,4 @@
   .attribution {
     display: flex;
   }
-  
 }
