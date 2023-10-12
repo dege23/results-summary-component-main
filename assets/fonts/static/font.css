@@ -1,0 +1,20 @@
+/* Weight 500(Medium) */
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("./HankenGrotesk-Medium.ttf");
+  font-weight: 500;
+}
+
+/* Weight 700(Bold) */
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("./HankenGrotesk-Bold.ttf");
+  font-weight: 700;
+}
+
+/* Weight 800(Extra Bold) */
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("./HankenGrotesk-ExtraBold.ttf");
+  font-weight: 800;
+}
